@@ -57,20 +57,5 @@ int main ()
   unsigned long int diff = difftime(n2,n1);
   printf("Until the targetted date: %lu", diff);
 
-  /*got stuck here was trying to figure out how to subtract the users inputted date and the current date. What confused me on this
-  section was at first I thought it would be as easy as taking the current time which is day,time,year and then calculating the difference
-  in one year as 365 in-between the years(skipping leap years). I thought it would've been as simple as take future date - current date
-  so it shoudl do somethin like this
-
-  future date taken from users values
-  current date
-
-  create a loop here
-  {
-    increment when the date has been reached
-  }
-  return date here;
-  */
-
   return 0;
 }
